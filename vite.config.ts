@@ -12,5 +12,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/{Foundations-of-Computing-1-app}/'
+  base: '/{halforinv/Foundations-of-Computing-1-app}/'
 })
