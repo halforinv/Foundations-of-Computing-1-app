@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-interface Item {
+interface Person {
   name: string
   score: number
 }
 
-const scores = ref<Item[]>([
+const scores = ref<Person[]>([
 ])
 const newItemName = ref('')
 const newScore = ref(0)
